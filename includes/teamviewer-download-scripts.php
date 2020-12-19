@@ -3,10 +3,10 @@
 function tvd_add_scripts()
 {
   //Add main css
-  wp_enqueue_style('tvd-main-style', plugins_url(). '/teamviewer-download/css/tvd.css');
+  wp_enqueue_style('tvd-main-style', plugins_url(). '/teamviewer/css/tvd.css');
     
   //Add main scripts
-  wp_enqueue_script('tvd-main-script', plugins_url(). '/teamviewer-download/js/tvd.js', null, null, true);
+  wp_enqueue_script('tvd-main-script', plugins_url(). '/teamviewer/js/tvd.js', null, null, true);
 }
 
 add_action('wp_enqueue_scripts', 'tvd_add_scripts');
@@ -58,7 +58,7 @@ function add_team_viewer_model(){
             </p>
           </div>
           <div class="right_header">
-            <img src="/wp-content/themes/wptemplate/img/TeamViewer_logo.png" alt="Team Viewer" / class="TeamViewer_logo">
+            <img src="'.plugins_url().'/teamviewer/img/TeamViewer_logo.png" alt="Team Viewer" / class="TeamViewer_logo">
           </div>
           <!-- .close -->
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ function add_team_viewer_model(){
           <!-- .tvd_apple -->
           <div class="tvd_apple tvd_os">
 
-            <img src="/wp-content/themes/wptemplate/img/apple.png" alt="">
+            <img src="'.plugins_url().'/teamviewer/img/apple.png" alt="">
             <p class="os_type">
               TeamViewerQs For Mac
             </p>
@@ -94,7 +94,7 @@ function add_team_viewer_model(){
 
           <!-- .tvd_windows -->
           <div class="tvd_windows tvd_os">
-            <img src="/wp-content/themes/wptemplate/img/windows.png" alt="">
+            <img src="'.plugins_url().'/teamviewer/img/windows.png" alt="">
             <p class="os_type">
               TeamViewerQs For Windows
             </p>
