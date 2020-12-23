@@ -3,12 +3,11 @@
 */
 
 .tvd {
-  padding: 14px 8px;
+  padding: 8px 16px;
   position: fixed;
   bottom: 80px;
-  right: 40px;
+  right: 16px;
   background: white;
-  width: 175px;
   height: 50px;
   display: flex;
   border-radius: 6px;
@@ -18,6 +17,7 @@
   border: 1px solid #edf2f7;
   z-index: 9000;
   cursor: pointer;
+  transition: all 0.3s;
   -webkit-touch-callout: none; /* iOS Safari */
   4-webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -28,6 +28,7 @@
 
 .tvd .tvd_body {
   margin-left: 8px;
+  transition: all 0.3s;
 }
 
 .tvd .tvd_title,
@@ -255,5 +256,13 @@
 
   .tvd_model_body .tvd_apple {
     border-right: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .tvd {
+    padding: 8px;
+  }
+  .tvd .tvd_body {
+    display: none;
   }
 }
