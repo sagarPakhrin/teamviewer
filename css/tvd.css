@@ -195,14 +195,27 @@
 @media only screen and (max-width: 1080px) {
   .tvd_model_header {
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: flex-center;
   }
-  .tvd-model .right_header {
-    margin: 0px;
-    margin-top: 40px;
+  .tvd-model .left_header {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .tvd-model .tvd_model_title,
+  .tvd-model .tvd_model_subtitle {
+    text-align: left;
+  }
+  .tvd-model .tvd_model_subtitle {
+    margin-top:0px;
+  }
+
+  .tvd-model .right_header {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .left_header p {

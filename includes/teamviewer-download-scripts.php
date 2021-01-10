@@ -53,8 +53,7 @@ function add_team_viewer_model(){
           <div class="left_header">
             <p class="tvd_model_title">Get Support Remotely</p>
             <p class="tvd_model_subtitle">
-              Get support remotely by allowing easy acess of allowing your device that can be
-              control through support side
+              Get support remotely by allowing easy acess of allowing your device that can be control through support side
             </p>
           </div>
           <div class="right_header">
