@@ -26,6 +26,11 @@
   user-select: none;
 }
 
+#mob,
+#pc {
+  display: none;
+}
+
 .tvd .tvd_body {
   margin-left: 8px;
   transition: all 0.3s;
@@ -208,7 +213,7 @@
     text-align: left;
   }
   .tvd-model .tvd_model_subtitle {
-    margin-top:0px;
+    margin-top: 0px;
   }
 
   .tvd-model .right_header {
