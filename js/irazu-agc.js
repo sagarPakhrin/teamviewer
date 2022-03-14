@@ -10,7 +10,6 @@ const getCookie = (name) => {
 };
 
 const irazuSubmitBtn = document.getElementById('irazu-agc-btn');
-const irazuNoBtn = document.querySelector('.irazu-agc-cancel-btn');
 const irazuAgcModal = document.querySelector('.irazu-agc__backdrop');
 
 const openModal = () => {
@@ -30,8 +29,6 @@ irazuSubmitBtn.addEventListener('click', (e) => {
   document.cookie = 'age_verified=true;path=/';
   closeModal();
 });
-
-irazuNoBtn.addEventListener('click', closeModal);
 
 const inputs = document.querySelectorAll('.irazu-agc__form input');
 inputs.forEach((input) => {

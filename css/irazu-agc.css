@@ -12,7 +12,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
@@ -74,6 +74,7 @@
   align-items: flex-start;
 }
 .irazu-agc__form_field input {
+  margin-top: 6px !important;
   flex-shrink: 0;
 }
 .irazu-agc__form label {
@@ -96,6 +97,7 @@
 
 .irazu-agc-cancel-btn {
   margin-top: 16px;
+  padding: 16px;
   color: #dc2626 !important;
   text-transform: uppercase;
   border: 1px solid #dc2626;

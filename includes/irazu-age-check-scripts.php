@@ -18,29 +18,26 @@ function add_team_viewer_button()
     echo '
     <div class="irazu-agc__backdrop irazu-agc-hidden">
       <div class="irazu-agc__modal">
-        <span class="irazu-agc__muted irazu-agc__uppercase">Age Check</span>
+        <span class="irazu-agc__muted irazu-agc__uppercase">ALTERSPRÜFUNG</span>
         <h1 class="irazu-agc__heading">
-          Are you 18 years older to enter this site ?
+        Sind Sie 18 Jahre alt, um diese Seite zu betreten?
         </h1>
-        <span class="irazu-agc__muted irazu-agc__sm">We sell our products to the adults only.</span>
+        <span class="irazu-agc__muted irazu-agc__sm">Wir verkaufen unsere Produkte nur an Erwachsene.</span>
         <div class="irazu-agc__form">
           <div  class="irazu-agc__form_field">
              <input type="checkbox" name="age" id="age">
             <label for="age" class="irazu-agc__label">
-              I agree to be above 18+ year old to enter the site 
+            Ich stimme zu, über 18 Jahre alt zu sein, um die Seite zu betreten 
             </label>
           </div>
            <div  class="irazu-agc__form_field">
              <input type="checkbox" name="policy" id="policy">
             <label for="policy" class="irazu-agc__label">
-              I agree to be accept the GDPR & Cookie policy to enter the site
+            Ich erkläre mich mit der GDPR und der Cookie-Richtlinie einverstanden, um die Website zu betreten.
             </label>
           </div>
           <button id="irazu-agc-btn" disabled>
-            YES , I AM 
-          </button>
-          <button class="irazu-agc-cancel-btn">
-            Nope
+          Ja, ich bin
           </button>
         </div>
       </div>
