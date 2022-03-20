@@ -109,6 +109,10 @@
   letter-spacing: 0.12em;
 }
 
+#irazu-agc-btn:disabled {
+  background: #f87171;
+}
+
 @media only screen and (max-width: 640px) {
   .irazu-agc__modal {
     width: 90%;
